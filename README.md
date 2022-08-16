@@ -100,13 +100,13 @@ cd /home/pi/cat9555/python<br>
 python3 cat9555.py<br>
 In the demo codes, the P0 port is configured as an output, the P1 port is configured as an input, and the P0 port reverses the IO port state every 1 second. when the IO state input by the P1 port changes, the serial port will output the current state of the P1 port.<br>
 ### 2.2.2、Usage of Demo Codes for Arduino UNO R3
-    After installing the Ariduino IDE software, wire the module according to the wiring definitions in Table 2-2 and Figure 2-2, double-click to access the cat9555.ino file in the demo codes, click the "Verify" and "Upload" buttons successively, and then access " "Tools" -> "Serial Monitor" to check the input status of the P1 port.<br>
+After installing the Ariduino IDE software, wire the module according to the wiring definitions in Table 2-2 and Figure 2-2, double-click to access the cat9555.ino file in the demo codes, click the "Verify" and "Upload" buttons successively, and then access " "Tools" -> "Serial Monitor" to check the input status of the P1 port.<br>
 In the demo codes, the P0 port is configured as an output, the P1 port is configured as an input and the P0 port reverses the IO port state every 1 second. When the IO state input by the P1 port changes, the serial port will output the current state of the P1 port.<br>
-### 2.2.3、Usage of Demo Codes forSTM32
+### 2.2.3、Usage of Demo Codes for STM32
 This demo codes are based on the STM32F103CBT6 single-chip microcomputer. Wire the module according to the wiring definitions in Table 2-3. If you need to check the input status of the P1 port, you need to connect the UART1 port (3.3V TTL level) of the STM32 to the PC. PA9 is transmissed the pins for data, and PA10 is used to receive the pins for data.<br>
 The demo codes are written based on Keil uVsion5, and the user needs to install the software in advance. After wiring, double-click to access the project file main.uvprojx in the demo codes/STM32/USER/ path, and then click the "Build" button to compile. After the compilation is successful, click the "LOAD" button to download the compiled executable file to STM32. The download method and the corresponding downloader are configured by the user.<br>
 The running situation of the demo codes is the same as that of Raspberry Pi and Arduino UNO. The P0 port reverses the IO port status every 1 second, and the P1 port is used as the input port.<br>
 
-_Thank you for choosing the products of Shengui Technology Co.,Ltd. For more details about this product, please visit:
-www.seengreat.com_
+__Thank you for choosing the products of Shengui Technology Co.,Ltd. For more details about this product, please visit:
+www.seengreat.com__
 
