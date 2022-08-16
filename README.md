@@ -59,8 +59,8 @@ The 8th bit following the 7−bit slave address is the R/W bit that specifies wh
 ![3.jpg](https://github.com/seengreat/CAT9555-IO-Expansion-Module/blob/main/pic/pic3.png)<br>
 
 Figure 2-3. CAT9555 Slave Address<br>
-When the on-board toggle switch is turned to the "ON" state, the address state on this bit is low level ("0"), and when it is turned to the other side, it is high level ("1"),The status settings of A2 A1 A0 are shown in the following table:<br>
-|I2C Address line	|toggle switch “ON” state	|toggle switch “OFF” state|
+When the on-board DIP switch is turned to the "ON" state, the address state on this bit is low level ("0"), and when it is turned to the other side, it is high level ("1"),The status settings of A2 A1 A0 are shown in the following table:<br>
+|I2C Address line	|DIP switch “ON” state	|DIP switch “OFF” state|
 |----------------------|----------------------------------|------------------------------|
 |A0	|0	|1|
 |A1	|0	|1|
