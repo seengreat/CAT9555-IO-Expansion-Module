@@ -9,7 +9,7 @@
  *			GND	 ->	GND					PB11 -> SDA1
  *			PB3	 ->	/INT
  * Library Version :ST_V3.5
- * Author		   :Christian
+ * Author		   :Andy Li
  * Web Site		   :www.seengreat.com
 ***************************************************************************************/
 #include "sys.h"
