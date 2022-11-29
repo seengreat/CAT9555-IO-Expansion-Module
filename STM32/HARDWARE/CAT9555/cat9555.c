@@ -16,7 +16,7 @@
 #include "delay.h"
 #include "myiic.h"
 
-void RC522_WR_Reg(u8 RCsla,u8 addr,u8 val)
+void CAT9555_WR_Reg(u8 RCsla,u8 addr,u8 val)
 {
 	IIC_Start();  				 
 	IIC_Send_Byte(RCsla);     	
@@ -28,7 +28,7 @@ void RC522_WR_Reg(u8 RCsla,u8 addr,u8 val)
   IIC_Stop();				
 }
 
-unsigned char RC522_RD_Reg(u8 RCsla,u8 addr)
+unsigned char CAT9555_RD_Reg(u8 RCsla,u8 addr)
 {
 	u8 temp=0;		 
 	IIC_Start();  				 
@@ -47,12 +47,12 @@ unsigned char RC522_RD_Reg(u8 RCsla,u8 addr)
 unsigned char Read_reg(unsigned char Address)
 {
 	unsigned char ucResult;
-	ucResult = RC522_RD_Reg(I2C_ADDR,Address);    //read reg
+	ucResult = CAT9555_RD_Reg(I2C_ADDR,Address);    //read reg
 	return ucResult;
 }
 
 void Write_reg(unsigned char Address, unsigned char value)
 {
-	RC522_WR_Reg(I2C_ADDR,Address,value);
+	CAT9555_WR_Reg(I2C_ADDR,Address,value);
 }
 
