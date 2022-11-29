@@ -1,5 +1,5 @@
-#ifndef __RC522_H
-#define	__RC522_H	
+#ifndef __CAT9555_H
+#define	__CAT9555_H	
 #include "sys.h"
 
 #define I2C_ADDR    0x27<<1
@@ -14,8 +14,8 @@
 #define CFG_PORT0   6
 #define CFG_PORT1   7
 
-void RC522_WR_Reg(u8 RCsla,u8 addr,u8 val);
-unsigned char RC522_RD_Reg(u8 RCsla,u8 addr);
+void CAT9555_WR_Reg(u8 RCsla,u8 addr,u8 val);
+unsigned char CAT9555_RD_Reg(u8 RCsla,u8 addr);
 unsigned char Read_reg(unsigned char Address);
 void Write_reg(unsigned char Address, unsigned char value);
 
