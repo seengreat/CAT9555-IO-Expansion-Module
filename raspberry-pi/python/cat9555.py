@@ -25,7 +25,7 @@ PIN_INT = 7  # GPIO.7 in wiringPi encode
 
 class CAT9555_api():
     def __init__(self):
-        self.dev_addr = 0x27 #when A2=1 A1=1 A0=1 =>0010 0111
+        self.dev_addr = 0x20 #when A2=0 A1=0 A0=0 =>0010 0000
         self.i2c = smbus.SMBus(1)  # /dev/i2c-1
         self.port1 = 0xff
         wpi.wiringPiSetup()
