@@ -7,7 +7,7 @@
 #include <stdlib.h> 
 #include <Wire.h>
 
-#define  DEV_ADDR   0X27  //when A2=1 A1=1 A0=1 =>0010 0111
+#define  DEV_ADDR   0X20  //when A2=0 A1=0 A0=0 =>0010 0000
 #define  PIN_INT    2   //interrupt 0，pin of D2
 //CAT9555 regsiter
 #define IN_PORT0    0
