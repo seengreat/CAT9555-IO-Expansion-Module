@@ -2,7 +2,7 @@
 #define	__CAT9555_H	
 #include "sys.h"
 
-#define I2C_ADDR    0x27<<1
+#define I2C_ADDR    0x20<<1
 
 //CAT9555 regsiter
 #define IN_PORT0    0
