@@ -9,7 +9,7 @@
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
 
-#define  DEV_ADRR   0x20  //when A2=0 A1=0 A0=0 =>0010 0000
+#define  DEV_ADRR   0x27  //when A2=1 A1=1 A0=1 =>0010 0111
 
 //CAT9555 regsiter
 #define IN_PORT0    0
