@@ -9,7 +9,7 @@ The communication interface of this product is I2C, and the maximum communicatio
 |----------------------|--------------------------------|
 |NUMBER OF I/O PORTS	|16|
 |CONTROL CHIP	|CAT9555|
-|SIGNAL INTERFACE	I2C|
+|SIGNAL INTERFACE	|I2C|
 |SUPPLY VOLTAGE	|3.3V/5V|
 
 # Usage
